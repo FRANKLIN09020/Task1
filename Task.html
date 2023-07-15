@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+</head>
+<body>
+    <h1>01.Applicatin form</h1>
+    <form action="#">
+        <label for="name" >Name</label>
+        <input type="text" placeholder="Enter Your Name" id="name" required><br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" required placeholder="Enter Your Email"><br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <br><br>
+        <label>CHOOSE SKILLS</label><br><br>
+        <label for="Html">HTML</label>
+        <input type="checkbox" value="html">
+        <label for="css">CSS</label>
+        <input type="checkbox" value="css">   
+        <label for="JS">JS</label>
+        <input type="checkbox" value="js">   
+        <label for="Bootstrab" >Bootstrab</label>
+        <input type="checkbox" value="Bootstrab">   
+        <label for="React">React</label>
+        <input type="checkbox" value="React">    
+        <br><br>
+        <label for="job">JOB TYPE</label>
+        <select name="job" id="job">
+            <option value="FRONT END DEVELOPER">FRONT END DEVELOPER</option>
+            <option value="BACK END DEVELOPER">BACK END DEVELOPER</option>
+            <option value="MOBILE APP DEVELOPER">MOBILE APP DEVELOPER</option>
+            <option value="WORDPRESS DEVELOPER">WORDPRESS DEVELOPER</option>
+            <option value="UI/UX DEVELOPER">UI/UX DEVELOPER</option>
+             <option value="JAVA DEVELOPER">JAVA DEVELOPER</option>
+        </select>
+        <br><br>
+        <label for="browser">Choose your browser from the list:</label>
+        <select name="browser" id="browser">
+            <option value="chrome">CHROME</option>
+            <option value="microsoft edge">MICROSOFFT EDGE</option>
+            <option value="opera">OPERA</option>
+            <option value="firefox">FIREFOX</option>
+        </select><br><br>
+        <textarea name="about" id="about" cols="30" rows="5" placeholder="Give a brief summary about you"></textarea>
+        <br><br>
+        <button type="submit" value="submit" >Submit</button>
+    </form>
+    <hr>
+
+
+    <h1>02.Batch List</h1>
+
+    <ul style="list-style-type: square;">
+       <li>SENCHOLA UNIVERSITY</li>
+       <br>
+   <ol> 
+    <li>First Batch
+        <br><br>
+    <ol type="A">
+        <li>Ravi</li><br>
+        <li>Manol</li><br>
+        <li>Sandhiya</li> <br>
+    </ol>
+    
+<li>Second Batch
+    <br><br>
+<ol type="I">
+    <li>Sundhar</li><br>
+    <li>Saranya</li><br>
+    <li>Nandhini</li>
+</ol>
+</li>
+<br>
+    <li>Third Batch
+        <br><br>
+    <ol type="i">
+        <li>Monika</li><br>
+        <li>Santhos</li><br>
+        <li>Kannan</li>
+    </ol>
+</li>
+</ol>
+</ul>
+<hr>
+<h1>03.Courses</h1>
+    <table border="2">
+        <thead>
+            <th>S.No 1</th>
+            <th>S.No 2</th>
+            <th>S.No 3</th>
+            <th>S.No 4</th>
+        </thead>
+        <tr>
+            <td rowspan="2">REACT JS</td>
+            <td >HTML</td>
+            <td rowspan="2">REACT JS</td>
+            <td>CSS</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>HTML</td>
+        </tr>
+        <tr>
+            <td colspan="2">JAVASCRIPT</td>
+             <td colspan="2">BOOTSTRAB</td>
+        </tr>
+    </table>
+</body>
+</html>
